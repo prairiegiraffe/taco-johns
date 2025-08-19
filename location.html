@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visit Taco John's in Gillette, Wyoming. Find our location, get directions, and contact us for the best tacos in town!">
+    <title>Location & Directions | Taco John's Gillette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-light">
+        <nav class="nav container">
+            <a href="index.html" class="text-primary">Taco John's</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Our Tacos</a></li>
+                <li><a href="location.html" class="text-primary">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero bg-primary">
+        <div class="container text-center">
+            <h1 class="text-secondary">Find Us in Gillette</h1>
+            <p class="mb-4">Serving the best tacos in Wyoming for over 12 years!</p>
+            <a href="#directions" class="btn btn-secondary">Get Directions</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid-2">
+                <div class="card">
+                    <h2>Our Location</h2>
+                    <div id="map" class="mb-4">
+                        <!-- Map iframe would go here -->
+                        <img src="map-placeholder.jpg" alt="Map of Taco John's location" class="mb-4">
+                    </div>
+                    <p class="mb-2">Taco John's</p>
+                    <p class="mb-2">Gillette, WY</p>
+                    <p class="mb-4">Phone: (307) 122-3214</p>
+                    <a href="tel:3071223214" class="btn btn-primary">Call Now</a>
+                </div>
+
+                <div class="card">
+                    <h2>Store Hours</h2>
+                    <ul class="mb-4">
+                        <li>Monday - Thursday: 10:00 AM - 10:00 PM</li>
+                        <li>Friday - Saturday: 10:00 AM - 11:00 PM</li>
+                        <li>Sunday: 11:00 AM - 9:00 PM</li>
+                    </ul>
+                    <h3>Parking Information</h3>
+                    <p class="mb-4">Free parking available in front of restaurant</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="directions" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">How to Find Us</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>From Interstate 90</h3>
+                    <p class="mb-4">Take exit 126 for US-14/US-16. Head east on US-14. Turn right at 2nd light. We're on the right!</p>
+                </div>
+                <div class="card">
+                    <h3>From Downtown</h3>
+                    <p class="mb-4">Head north on Main Street. Turn left at 3rd intersection. We're located in the shopping center.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form class="card">
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="input" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="input" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="section bg-dark">
+        <div class="container">
+            <div class="grid-3">
+                <div>
+                    <h3 class="text-secondary">Taco John's</h3>
+                    <p>Gillette, WY</p>
+                    <p>Phone: (307) 122-3214</p>
+                    <p>Email: heytaco@example.com</p>
+                </div>
+                <div>
+                    <h3 class="text-secondary">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Our Tacos</a></li>
+                        <li><a href="location.html">Location</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-secondary">Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="btn btn-secondary">Facebook</a>
+                        <a href="#" class="btn btn-secondary">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
